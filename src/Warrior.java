@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Warrior {
+public class Warrior extends Hero{
+    @Override
+    public String applySuperAbility() {
+        return "Warrior used super ability DOUBLE DAMAGE";
+    }
 }

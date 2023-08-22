@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Magic {
+public class Magic extends Hero{
+    @Override
+    public String applySuperAbility() {
+        return "Magic used super ability FIRE BALL";
+    }
 }

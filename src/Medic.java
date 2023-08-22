@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Medic {
+public class Medic extends Hero{
+    @Override
+    public String applySuperAbility() {
+        return "Medic used super ability HEAl";
+    }
 }
